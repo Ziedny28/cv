@@ -1,0 +1,96 @@
+* {
+    /* keseluruhan */
+    background-color: #3a3973;
+    font-family: Helvetica;
+    color: white;
+}
+
+body{
+    margin-left: 100px; margin-right: 100px
+}
+
+#nav-bar {
+    /* agar navigasi ada di kanan */
+    float: right;
+}
+
+.redish {
+    /* beberapa text memerlukan warna ini */
+    color: #fe4d6a;
+}
+
+#nav-bar {
+    /* agar list navbar tidak ada bullets/titik */
+    list-style-type: none;
+    /* agar navbar mengarah ke samping */
+    display: flex;
+    /* agar naik */
+    margin-top: -20px;
+}
+
+.no-dec {
+    /* agar link tidak muncul garis bawah */
+    text-decoration: none;
+    /* agar ada jarak */
+    padding-left: 30px;
+}
+
+
+.no-dec:hover{
+    /* ketika kena mouse */
+    /* warna dibah menjadi kemerahan */
+    color: #fe4d6a;
+    /* warna diubah dalam jangka 0.5s */
+    transition: color .5s;
+    
+}
+
+#halo{
+    margin-top: 200px;
+}
+
+.left-text{
+    width: 30%;
+}
+
+.images{
+    width: 400px;
+}
+
+.right-text{
+    float: right;
+    width: 40%;
+    margin-top: -600px;
+    margin-left: 100px;
+}
+
+.rounded-corner-box{
+    background-color: #fe4d6a;
+    width: 200px;
+    height: 5px;
+    border-radius: 25px;
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.rounded-corner-box:hover{
+    transform: scale(1.2);
+}
+
+.skills{
+    margin-top: 300px;
+    text-align: center;
+}
+
+.padding-table-skills{
+    padding: 100px;
+}
+
+.img-skills{
+    width: 150px;
+}
+
+
+
